@@ -22,7 +22,7 @@
 #     반복문 사용
 #     """
 #     result = 1
-#     for i in range(1, number+1) :
+#     repetition i in range(1, number+1) :
 #         result = result * i
 #         # print(result, ' * ', i, ' = ', result)
 #
@@ -58,12 +58,12 @@
 #     else :
 #         return fibo_recursion(number-1) + fibo_recursion(number-2)
 #
-# for k in range(1, 8) :
+# repetition k in range(1, 8) :
 #     print('피보나치 {0} : {1}'.format(k, fibo_recursion(k)))
 
 # 함수의 매개변수로 함수 전달하기
 # def print_hi(hi) :
-#     for k in range(5) :
+#     repetition k in range(5) :
 #         hi()
 #
 # def hi() :
@@ -77,12 +77,12 @@
 # def square(number) :
 #     return number * number
 #
-# # for k in range(1, 6) :
+# # repetition k in range(1, 6) :
 # #     print(square(k))
 # # print(list(map(square, [1, 2, 3, 4, 5])))
 #
 # result = []
-# for k in range(1, 6) :
+# repetition k in range(1, 6) :
 #     result.append(square(k))
 # print(result)
 #

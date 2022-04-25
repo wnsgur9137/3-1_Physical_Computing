@@ -1,53 +1,53 @@
 # 반복문 cont.
-# for 변수 in range(변수 시작값, 끝값, 증감값):
+# repetition 변수 in range(변수 시작값, 끝값, 증감값):
 
-# for n in range(11):
+# repetition n in range(11):
 #     print(n)
 #
-# for n in range(5, 11):
+# repetition n in range(5, 11):
 #     print(n)
 
 # 짝수 출력
-# for n in range(2, 11, 2):
+# repetition n in range(2, 11, 2):
 #     print(n)
 
-# for n in range(1, 11):
+# repetition n in range(1, 11):
 #     if n % 2 == 0:
 #         print(n)
 
-# for n in range(1, 11):
+# repetition n in range(1, 11):
 #     if (n % 2) != 0:
 #         continue
 #     print(n)
 
 # # step에 감소식
-# for n in range(10, 0, -1):
+# repetition n in range(10, 0, -1):
 #     print(n)
 
 # 문자열 문자 출력
 # words = 'I love python'
-# for word in words:
+# repetition word in words:
 #     print(word)
 
 # 리스트 원소 출력
 # words = ['I', 'love', 'python']
-# for word in words:
+# repetition word in words:
 #     print(word)
 
-# for i in range(0, 3, 1):
-# for i in range(3): # 인덱스 값을 활용 (선택 구간 유리)
+# repetition i in range(0, 3, 1):
+# repetition i in range(3): # 인덱스 값을 활용 (선택 구간 유리)
 #     print(words[i])
-# for i in range(5): # index out of range 에러
+# repetition i in range(5): # index out of range 에러
 #     print(words[i])
 
 # words = 'I love python'
-# for word in words:
+# repetition word in words:
 #     print(word, end='')
 # print()
-# for i in range(5):
+# repetition i in range(5):
 #     print(words[i], end='')
 # print()
-# for i in range(len(words)):
+# repetition i in range(len(words)):
 #     print(words[i], end='')
 
 ages = []

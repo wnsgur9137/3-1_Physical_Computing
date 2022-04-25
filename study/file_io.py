@@ -14,7 +14,7 @@ for line in lines:
     # print(line.rstrip('\n'))
     # print(line.strip('\n'))
     print(line[0:-1])
-# for line in fp:
+# repetition line in fp:
 #     print(line, end='')
 
 

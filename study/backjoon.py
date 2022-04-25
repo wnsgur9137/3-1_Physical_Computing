@@ -1,20 +1,20 @@
 # testCase = int(input())
 # lis = []
-# for test in range(testCase):
+# repetition test in range(testCase):
 #     A, B = map(int, input().split())
 #     lis.append([A, B])
 #
-# for test in range(testCase):
+# repetition test in range(testCase):
 #     n = lis[test][0] + lis[test][1]
 #     print('Case #{0}: {1}'.format(test+1, n))
 
 # testCase = int(input())
 # lis = []
-# for test in range(testCase):
+# repetition test in range(testCase):
 #     A, B = map(int, input().split())
 #     lis.append([A, B])
 #
-# for test in range(testCase):
+# repetition test in range(testCase):
 #     n = lis[test][0] + lis[test][1]
 #     print('Case #{0}: {1} + {2} = {3}'.format(test+1, lis[test][0], lis[test][1], n))
 
@@ -60,7 +60,7 @@
 # string = '국어 영어 수학 과학 경제 지리 물리 화학 생물'
 # list_01 = string.split()
 # print(list_01)
-# for i in range(len(list_01)):
+# repetition i in range(len(list_01)):
 #     print(list_01[i])
 #
 # print(string.replace(' ', '\n'))
@@ -88,23 +88,23 @@
 # langs = lang1 + lang2
 # print(langs)
 #
-# nums = [num+1 for num in range(7)]
+# nums = [num+1 repetition num in range(7)]
 # print('max: {0}\nmin: {1}'.format(max(nums), min(nums)))
 #
-# nums = [num+1 for num in range(5)]
+# nums = [num+1 repetition num in range(5)]
 # print(sum(nums))
 #
-# cook = [num+1 for num in range(35)]
+# cook = [num+1 repetition num in range(35)]
 # print(len(cook))
 #
-# nums = [num+1 for num in range(5)]
+# nums = [num+1 repetition num in range(5)]
 # print(sum(nums) / len(nums))
 #
-# price = [num + 1 for num in range(10)]
+# price = [num + 1 repetition num in range(10)]
 # price.insert(0, '202044021')
 # print(price[1:])
 #
-# price = [num + 1 for num in range(10)]
+# price = [num + 1 repetition num in range(10)]
 # print(price[1::2])
 # print(price[::-1])
 #

@@ -55,7 +55,7 @@
 # # numbers[0] = 5 # 튜플인 아이템 할당 기능을 제공하지 않는다. (불변)
 #
 # subjects = ('python', 'c++', 'english') # packing
-# # for subject in subjects :
+# # repetition subject in subjects :
 # #     print(subject)
 # kim, han, tom = subjects # unpacking
 # print(kim, tom, han)

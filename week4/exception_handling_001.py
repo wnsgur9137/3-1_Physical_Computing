@@ -2,7 +2,7 @@
 
 # 실행전 에러 - syntax(구문 에러)
 # 예시
-# for k in range(5):
+# repetition k in range(5):
 # print(k)
 
 # a = input()

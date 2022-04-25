@@ -3,7 +3,7 @@
 # r = list(range(1, 6))
 # print(r)
 
-# for k in range(1, 6, 1) :
+# repetition k in range(1, 6, 1) :
 #     print(k, end=" ")
 
 # k = 1
@@ -26,7 +26,7 @@
 #     n += 1
 # while 무한루프에서 탈출하면서 사용 (if-break, continue)
 
-# for n in range(1, 101):
+# repetition n in range(1, 101):
 #     output = n
 #     if (n % 3 == 0) and (n % 5 == 0) :
 #         print('FizzBuzz')

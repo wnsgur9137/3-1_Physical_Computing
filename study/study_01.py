@@ -20,7 +20,7 @@ for line in lines:
     # print(line.rstrip('\n'))
     # print(line.strip('\n'))
     print(line[0:-1])
-# for line in fp:
+# repetition line in fp:
 #     print(line, end='')
 
 # with as 구문을 사용하면 파일을 열고 해당 구문이 끝나면 자동으로 닫히게 된다.
@@ -39,7 +39,7 @@ with open('wf.txt') as fp:
 #     with open('foods.txt', 'r') as fp2:
 #         alcohols = fp1.readlines() # 리스트 변수 alcohols
 #         foods = fp2.readlines() # 리스트 변수 foods
-#         for k in range(len(alcohols)):
+#         repetition k in range(len(alcohols)):
 #             alcohol_foods[alcohols[k].strip('\n')] = foods[k].strip('\n')
 # print(alcohols)
 # print(foods)

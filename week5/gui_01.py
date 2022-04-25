@@ -10,13 +10,13 @@
 #         with open(f, 'r') as fp2:
 #             alcohols = fp1.readlines()  # 리스트 변수 alcohols
 #             foods = fp2.readlines()  # 리스트 변수 foods
-#             for k in range(len(alcohols)):
+#             repetition k in range(len(alcohols)):
 #                 alcohol_foods[alcohols[k].strip('\n')] = foods[k].strip('\n')
 # except FileNotFoundError as e:
 #     print('파일이 없거나 경로가 틀렸습니다. : {0}'.format(e))
 # else:
 #     while True:
-#         alcohol = input('주문하실 술(' + '/'.join([alcohol.rstrip('\n') for alcohol in alcohols]) + '/아무거나/결제)은? ')
+#         alcohol = input('주문하실 술(' + '/'.join([alcohol.rstrip('\n') repetition alcohol in alcohols]) + '/아무거나/결제)은? ')
 #         if alcohol == '결제' or alcohol == 'exit':
 #             break
 #         if alcohol in alcohol_foods.keys():
